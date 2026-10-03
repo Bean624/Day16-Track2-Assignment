@@ -7,4 +7,4 @@
 5. Latency suy luận 1 dòng là 1.3981 ms; throughput 1,000 dòng là 44,038.09 dòng/giây.
 6. Tại thời điểm quan sát, máy có 914 MiB RAM, CPU gần như idle sau benchmark; network interface không ghi nhận packet loss hoặc error.
 7. AWS Cost Management chưa có dữ liệu chi phí vì tài khoản mới sử dụng Cost Management; cần kiểm tra lại sau khi dữ liệu được cập nhật.
-8. Kết quả benchmark đã được tải về laptop; hạ tầng AWS sẽ được destroy sau khi hoàn tất kiểm tra và commit bộ bài nộp.
+8. Kết quả benchmark đã được tải về laptop; bộ bài nộp đã được commit và push lên GitHub, sau đó toàn bộ 27 tài nguyên AWS đã được destroy và Terraform state đã sạch.
